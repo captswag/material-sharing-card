@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/dimen_8dp"
+    android:paddingRight="@dimen/dimen_8dp"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <android.support.v7.widget.CardView xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        cardview:cardCornerRadius="@dimen/dimen_2dp"
+        cardview:cardElevation="@dimen/dimen_4dp"
+        cardview:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/image"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/image" />
+
+                <LinearLayout
+                    android:id="@+id/linearView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@color/twitter"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/layoutButtons"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <Button
+                            style="@style/Button"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"
+                            android:text="@string/duplicate" />
+
+                        <Button
+                            style="@style/Button"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"
+                            android:text="@string/schedule" />
+
+                        <Button
+                            style="@style/Button"
+                            android:text="@string/delete" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/frameLayout"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingExtra="@dimen/dimen_4dp"
+                android:paddingBottom="@dimen/dimen_24dp"
+                android:paddingLeft="@dimen/dimen_24dp"
+                android:paddingRight="@dimen/dimen_24dp"
+                android:paddingTop="@dimen/dimen_48dp"
+                android:text="@string/desc"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/dimen_16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView"
+                android:fontFamily="sans-serif-medium"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/dimen_24dp"
+                android:paddingRight="@dimen/dimen_24dp"
+                android:paddingTop="@dimen/dimen_24dp"
+                android:text="@string/italic"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/dimen_16sp"
+                android:textStyle="italic" />
+
+
+            <ImageButton
+                android:id="@+id/launchTwitterAnimation"
+                android:layout_width="@dimen/dimen_56dp"
+                android:layout_height="@dimen/dimen_56dp"
+                android:layout_alignBottom="@id/frameLayout"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="-28dp"
+                android:layout_marginEnd="@dimen/activity_vertical_margin"
+                android:adjustViewBounds="true"
+                android:background="@drawable/rounded_button"
+                android:contentDescription="@string/image"
+                android:elevation="@dimen/dimen_4dp"
+                android:onClick="launchTwitter"
+                android:src="@mipmap/twitter_logo" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</ScrollView>

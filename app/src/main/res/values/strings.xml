@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Material Sharing Card</string>
+
+    <string name="image">image</string>
+    <string name="desc">Being the savage\'s bowsman, that is, the person who pulled the
+    bow-oar in his boat. Dolor sit amet.</string>
+
+    <string name="italic">Friday 12 FEB.</string>
+    <string name="duplicate">DUPLICATE</string>
+    <string name="schedule">SCHEDULE</string>
+    <string name="delete">DELETE</string>
+</resources>
