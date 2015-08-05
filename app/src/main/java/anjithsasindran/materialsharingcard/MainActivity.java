@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
     ImageButton imageButton;
     LinearLayout revealView, layoutButtons;
     Animation alphaAnimation;
-    int pixelDensity;
+    float pixelDensity;
     boolean flag = true;
 
     @Override
@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        pixelDensity = (int) getResources().getDisplayMetrics().density;
+        pixelDensity = getResources().getDisplayMetrics().density;
 
         imageView = (ImageView) findViewById(R.id.imageView);
         imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation);
