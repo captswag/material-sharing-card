@@ -8,11 +8,17 @@ This was originaly a Dribbble post by [Benjamin Berger](https://dribbble.com/ben
 
 [Watch Youtube video of demo](https://www.youtube.com/watch?v=_ZFpaOQg_vs)
 
-I have also written a tutorial post on my blog, which goes through
+I have also written a tutorial post on my [blog](http://4k3r.github.io/2015/08/15/material-sharing-card/), which goes through
 - Building the User Interface (UI)
 - Layout in easy steps
 - Circular Reveal in action
 - Taking it a bit further
+
+#### Author
+**Anjith Sasindran**
+- https://twitter.com/anjithsasindran
+- https://instagram.com/anjithsasindran/
+- https://github.com/4k3R
 
 #### MIT License
 
