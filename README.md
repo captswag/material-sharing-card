@@ -1,4 +1,5 @@
-# Material Sharing Card
+# Material Sharing Card 
+**[Tutorial on my blog](http://4k3r.github.io/2015/08/15/material-sharing-card/)**
 
 With more and more android phones running on lollipop (API level 21+), it becomes essential for android developers to develop applications which takes full advantage of _Material Design_. This is a demo application, which runs on API Level 21 and above devices. 
 
